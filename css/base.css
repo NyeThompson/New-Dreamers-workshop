@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic|Nova+Mono');
+
+/* UNIVERSAL */
+
+html,
+body {
+height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  background-color: black;
+/*  overflow: hidden;*/
+
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  color: #FFF;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2rem;
+	    font-weight: 200;
+  	font-family: 'Lato', Helvetica, sans-serif;
+	color: dimgrey
+}
+
+h2 {
+  font-size: 1.8rem;
+font-family: 'Nova Mono', monospace;
+	    font-weight: 200;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 200;
+  	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+	color: aqua;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white;
+    background-color: black;
+}
+
+a.nohover {
+	text-decoration: none;
+	background-color: black;
+}
+
+.homenav{
+	position: relative;
+    top: 50px;
+	z-index: 5000;
+    float: right;
+	padding: 10px 60px;
+}
+
+
+  div.imagetiles div.col-sm-4{
+  padding: 1px;
+
+	  
+}
+
+
+.no-padding{
+   margin: 0px;
+}
+
+
+.container-fluid {
+	padding: 0 !important;
+}
+
+
+img { 
+	max-width: 100%;
+	border: 1px solid #D3D3D3;
+	margin-top: 10px;
+}
